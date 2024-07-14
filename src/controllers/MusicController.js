@@ -70,7 +70,7 @@ const MusicController = {
       return res.status(deletedMusic.code).json({ error: deletedMusic.error });
     }
 
-    res.status(204).end();
+    res.json({ data: deletedMusic.message } );
   },
 };
 
