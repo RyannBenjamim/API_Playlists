@@ -167,6 +167,7 @@ const PlaylistModel = {
 
     return {
       status: true,
+      message: "Playlist deletada com sucesso.",
     };
   },
 };
