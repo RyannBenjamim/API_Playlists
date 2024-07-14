@@ -12,7 +12,7 @@ const TagsController = {
       return res.status(newTag.code).json({ error: newTag.error });
     }
 
-    res.status(201).json({ data: newTag.data });
+    res.json({ data: newTag.data });
   },
 
   // PUT /playlists/:id/tags
@@ -26,7 +26,7 @@ const TagsController = {
       return res.status(updateTag.code).json({ error: updateTag.error });
     }
 
-    res.status(200).json({ data: updateTag.data });
+    res.json({ data: updateTag.data });
   },
 
   // DELETE /playlists/:id/tags
@@ -40,7 +40,7 @@ const TagsController = {
       return res.status(deleteTag.code).json({ error: deleteTag.error });
     }
 
-    res.status(200).json({ data: deleteTag.message });
+    res.json({ data: deleteTag.message });
   },
 };
 
