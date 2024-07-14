@@ -205,6 +205,7 @@ const MusicModel = {
 
     return {
       status: true,
+      message: "Playlist deletada com sucesso.",
     };
   },
 };
