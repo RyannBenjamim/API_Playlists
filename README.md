@@ -312,7 +312,7 @@ Esta API foi desenvolvida para facilitar o gerenciamento de playlists, músicas 
 1. Clone este repositório:
 
 ```env
-git clone https://github.com/RyannBenjamim/ToDo-List-Express
+git clone https://github.com/RyannBenjamim/API_Playlists
 ```
 
 2. Instale as dependências:
