@@ -100,10 +100,7 @@ const TagsModel = {
 
     return {
       status: true,
-      data: {
-        playlist: playlist.data.name,
-        tags: playlist.data.tags,
-      },
+      message: "Tag deletada com sucesso.",
     };
   },
 };
