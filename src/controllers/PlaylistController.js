@@ -80,7 +80,7 @@ const PlaylistController = {
         .json({ error: deletedPlaylist.error });
     }
 
-    res.status(204).end();
+    res.json({ data: deletedPlaylist.message });
   },
 };
 
